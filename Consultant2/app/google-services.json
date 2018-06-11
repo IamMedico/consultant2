@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "1080057631152",
+    "firebase_url": "https://foolbag-2e071.firebaseio.com",
+    "project_id": "foolbag-2e071",
+    "storage_bucket": "foolbag-2e071.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1080057631152:android:60905dafac78f5ce",
+        "android_client_info": {
+          "package_name": "com.team1614.lower.consultant"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1080057631152-r5vp10bo9j64rbnq7etjnv4b5e4lsqqo.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "1080057631152-r5vp10bo9j64rbnq7etjnv4b5e4lsqqo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD40QHhkZga9AVBvSEjOejiTll0HzXC6xU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

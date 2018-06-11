@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:title="Category">
+            <menu>
+                <item
+                    android:id="@+id/bartaryay"
+                    android:icon="@drawable/bartaryay"
+                    android:title="ဘာသာေရး" />
+
+                <item
+                    android:id="@+id/economic"
+                    android:icon="@drawable/eco"
+                    android:title="စီးပြားေရး" />
+
+                <item
+                    android:id="@+id/Edu"
+                    android:icon="@drawable/edu"
+                    android:title="ပညာေရး" />
+
+                <item
+                    android:id="@+id/tech"
+                    android:icon="@drawable/techh"
+                    android:title="နည္းပညာ" />
+                <item
+                    android:id="@+id/sport"
+                    android:icon="@drawable/sport"
+                    android:title="အားကစား" />
+                <item
+                    android:id="@+id/health"
+                    android:icon="@drawable/health"
+                    android:title="က်န္းမာေရး" />
+                <item
+                    android:id="@+id/Beauty"
+                    android:icon="@drawable/b"
+                    android:title="အလွအပ" />
+                <item
+                    android:id="@+id/love"
+                    android:icon="@drawable/love"
+                    android:title="အခ်စ္ေရး" />
+
+                <item
+                    android:id="@+id/other"
+                    android:icon="@drawable/other"
+                    android:title="အျခားအေၾကာင္းအရာမ်ား" />
+            </menu>
+        </item>
+        <item android:title="Special">
+            <menu>
+                <item
+                    android:id="@+id/online"
+                    android:icon="@drawable/net_go_online"
+                    android:title="Mega Consultant(MC)" />
+            </menu>
+        </item>
+        <item android:title="Communicate">
+            <menu>
+                <item
+                    android:id="@+id/mshare"
+                    android:icon="@drawable/ic_share_black_24dp"
+                    android:title="Share" />
+                <item
+                    android:id="@+id/mabout"
+                    android:icon="@drawable/ic_suggestion"
+                    android:title="About" />
+
+            </menu>
+        </item>
+
+    </group>
+</menu>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.team1614.lower.consultant">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/mc"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <service android:name="com.team1614.lower.consultant.MyFirebaseInstanceIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.team1614.lower.consultant.MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <activity
+            android:name="com.team1614.lower.consultant.SplashActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.team1614.lower.consultant.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.team1614.lower.consultant.BeautyActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.team1614.lower.consultant.MainActivity" />
+        </activity>
+        <activity android:name="com.team1614.lower.consultant.MainOnline"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.team1614.lower.consultant.MainActivity" />
+        </activity>
+        <activity android:name="com.team1614.lower.consultant.NewPostActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.team1614.lower.consultant.MainOnline" />
+        </activity>
+        <activity android:name="com.team1614.lower.consultant.SignInActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.team1614.lower.consultant.MainActivity" />
+        </activity>
+        <activity android:name="com.team1614.lower.consultant.PostDetailActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.team1614.lower.consultant.MainOnline" />
+        </activity>
+        <activity android:name="com.team1614.lower.consultant.EduActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.team1614.lower.consultant.MainActivity" />
+        </activity>
+        <activity android:name="com.team1614.lower.consultant.EcoActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.team1614.lower.consultant.MainActivity" />
+        </activity>
+        <activity android:name="com.team1614.lower.consultant.SportActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.team1614.lower.consultant.MainActivity" />
+        </activity>
+        <activity android:name="com.team1614.lower.consultant.BartharActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.team1614.lower.consultant.MainActivity" />
+        </activity>
+        <activity android:name="com.team1614.lower.consultant.OtherActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.team1614.lower.consultant.MainActivity" />
+        </activity>
+        <activity android:name="com.team1614.lower.consultant.TechActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.team1614.lower.consultant.MainActivity" />
+        </activity>
+        <activity android:name="com.team1614.lower.consultant.LoveActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.team1614.lower.consultant.MainActivity" />
+        </activity>
+        <activity android:name="com.team1614.lower.consultant.HealthActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.team1614.lower.consultant.MainActivity" />
+        </activity>
+        <activity android:name="com.team1614.lower.consultant.Favourite"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.team1614.lower.consultant.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.team1614.lower.consultant.SearchActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.team1614.lower.consultant.MainActivity" />
+        </activity>
+        <activity android:name="com.team1614.lower.consultant.SettingsActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.team1614.lower.consultant.HelpActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.team1614.lower.consultant.MainActivity" />
+        </activity>
+        <activity android:name=".ScanActivity"/>
+    </application>
+
+</manifest>
